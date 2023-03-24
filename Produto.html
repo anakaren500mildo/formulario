@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Produto</legend>
+            <label for="iproduto">Produto</label>
+            <input type="text" id="iproduto" name="txtproduto"
+            placeholder="Digite seu produto"> 
+            <br><br>
+            <label for="idatanas">data-cadastro:</label>
+            <input type="date" id="idatanas" name="ddatanas"> 
+            <br><br>
+    
+            <label for="ipeso">Peso do produto</label>
+            <input type="number" id="ipeso" name="peso">
+            <br><br>
+    
+            <label for="categoria">Categoria:</label>
+            <select id="categoria" name="categoria" required>
+                <option value="Eletronico">Eletronico</option>
+                <option value="Moveis">Moveis</option>
+                <option value="Outro">Outro</option>
+            </select>
+            <br><br>
+
+            <label>Tipo:</label>
+            <br>
+            <input type="radio" name="rtipo" id="novo" value="U">
+            <label for="novo">Novo</label>
+            <br>
+            <input type="radio" name="rtipo" id="usado" value="A">
+            <label for="usado">Usado</label>
+            <br>
+            <br>
+            <label for="ifale">Descrição: </label>
+            <br>
+            <textarea name="txtafale" id="ifale"
+            cols="50" rows="20"></textarea>
+            <br><br>
+
+            <label for="avaliacao">Avaliação (0 a 10)</label>
+            <input type="range" id="avaliacao" name="avaliacao" min="0" max="10">
+            <br><br>
+            <input type="submit" value="ENVIAR">
+            <input type="submit" value="LIMPAR">
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
+</body>
+</html>
